@@ -1,0 +1,49 @@
+.navbar{
+  float: top right; /* Make navbar items float to left */
+  display: inline; /* Make the links behave as block-level elements */
+  text-align: right;
+  text-decoration: solid;
+}
+
+body{
+    font-family: 'roboto' , sans-serif;
+    background:
+    linear-gradient(purple 0%, pink 80%),
+    linear-gradient(to right, pink 0%, orange 100%);
+    background-blend-mode: screen, difference, lighten;
+}
+
+.projects{
+  display: inline-flex;
+}
+
+.skills{
+   display: inline-block;
+   font-weight: bolder;
+}
+
+footer{
+   text-align: center;
+}
+ 
+ label {
+   display: block;
+   font-weight: bold;
+ }
+
+.form 
+ input[type="text"],
+ input[type="email"],
+ textarea {
+   width: 150px;
+   height: 15px;
+ }
+ 
+ button[type="submit"] {
+   cursor: pointer;
+ }
+ 
+ button[type="submit"]:hover {
+    color: aquamarine;
+ }
+ 
